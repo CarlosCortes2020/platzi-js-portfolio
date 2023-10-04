@@ -160,7 +160,32 @@
         i--;                
     }
 
-//3 - 
+//3 - Escribe un codigo en JS que le pregunte a los usuarios cuanto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaicones, pero si responden mal, volvemos a empezar
+    
+    var answer = false;
+    while (answer == false) {
+        var respuesta =  Number(prompt("¿Cuánto es la suma de 2 + 2? "));      
+        if (respuesta == 4) {
+            alert("Es correcto el resultado es 4");
+            answer = true;
+        } else {
+            alert("Creo que esta mal el resultado");
+            answer = false;
+        }
+    }
+
+//Listas
+
+//1 - Responde las siguientes preguntas enla seccion de comentarios
+    //¿Que es un array?
+        //Es un espacio de memoria que puede contener diferente valores ordenados
+    //¿Ques es un objeto?
+        //Es una representacion  de un un elemento real con caractteristica unicas 
+    //¿Cuando es mejor usar obejtos o arrays?
+        //Depende de la aplicacion, un objeto describe caracteristicas de un objeto real, y el arreglo es una coleccion de elementos
+    //¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+        //si
+//2 - Crea una funcion que pueda recibir cualquier array como parametros e imprima su primer elemento
 
     
 
