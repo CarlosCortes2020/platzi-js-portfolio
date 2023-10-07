@@ -21,20 +21,20 @@
     //Deudas: number
 
 //3 - Traduce a código JS las variables del ejemplo anterior y deja tu código en los comentarios.
-    var nombre = "Ivan";
-    var apellido = "Cortés";
-    var user = "fedokhar";
-    var edad = 42;
-    var eMail = "ivan.cortes@gmail.com";
-    var mayorEdad = true;
-    var ahorro = 321654;
-    var deudas = 312654;
+    let nombre = "Ivan";
+    let apellido = "Cortés";
+    let user = "fedokhar";
+    let edad = 42;
+    let eMail = "ivan.cortes@gmail.com";
+    let mayorEdad = true;
+    let ahorro = 321654;
+    let deudas = 312654;
 //4 - Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
     //Nombre completo (nombre + apellido)
-    var nCompleto = nombre + " " + apellido;
+    let nCompleto = nombre + " " + apellido;
     console.log(nCompleto);
     //Dinero real (dinero ahorrado menos deudas)
-    var rAhorro = ahorro - deudas;
+    let rAhorro = ahorro - deudas;
     console.log(rAhorro);
 
 //Funciones
@@ -143,7 +143,7 @@
         
     }
 
-    var i = 0;
+    let i = 0;
     while (i < 5) {
         console.log("El valor de i es: " + i);
         i++;                
@@ -154,7 +154,7 @@
         
     }
 
-    var i = 10;
+    let i = 10;
     while (i >= 2) {
         console.log("El valor de i es: " + i);
         i--;                
@@ -162,9 +162,9 @@
 
 //3 - Escribe un codigo en JS que le pregunte a los usuarios cuanto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaicones, pero si responden mal, volvemos a empezar
     
-    var answer = false;
+    let answer = false;
     while (answer == false) {
-        var respuesta =  Number(prompt("¿Cuánto es la suma de 2 + 2? "));      
+        let respuesta =  Number(prompt("¿Cuánto es la suma de 2 + 2? "));      
         if (respuesta == 4) {
             alert("Es correcto el resultado es 4");
             answer = true;
